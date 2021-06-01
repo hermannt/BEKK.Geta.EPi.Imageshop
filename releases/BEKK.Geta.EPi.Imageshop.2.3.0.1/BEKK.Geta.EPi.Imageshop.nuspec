@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>BEKK.Geta.EPi.Imageshop</id>
+    <version>2.3.0.1</version>
+    <title>Geta.EPi.Imageshop</title>
+    <authors>Geta</authors>
+    <owners>Geta</owners>
+    <projectUrl>https://github.com/Geta/Geta.EPi.Imageshop</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Imageshop Episerver integration. Contains property editor for single image and video and multiple images and videos as well as a TinyMCE plugin. See https://github.com/Geta/Geta.EPi.Imageshop for more details.</description>
+    <releaseNotes />
+    <copyright />
+    <tags>Episerver, Imageshop</tags>
+    <dependencies>
+      <dependency id="EPiServer.Framework" version="[11.1.0, 12.0]" />
+      <dependency id="EPiServer.CMS.Core" version="[11.1.0, 12.0]" />
+      <dependency id="EPiServer.CMS.TinyMce" version="2.0.0" />
+      <dependency id="Microsoft.Net.Http" version="2.2.19" />
+    </dependencies>
+  </metadata>
+</package>
