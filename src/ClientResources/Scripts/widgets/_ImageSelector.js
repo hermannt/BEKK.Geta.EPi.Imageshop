@@ -160,10 +160,10 @@
                 // Set friendly name with title for image url
                 var friendlyName = "";
                 if (textData.title !== "") {
-                    friendlyName = "/" + escape(textData.title) + ".jpg";
+                    friendlyName = "/" + textData.title + ".jpg";
                 }
 
-                var imageUrl = imageData.image.file + friendlyName;
+                var imageUrl = encodeURI(imageData.image.file + friendlyName);
                 window.console && console.log(imageUrl);
 
                 this.currentImage = {

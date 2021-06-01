@@ -8,17 +8,15 @@
             <add name="geta-epi-imageshop" xdt:Transform="Insert" />
         </protectedModules>
     </episerver.shell>
-    <Geta.EPi.Imageshop xdt:Transform="Insert">
-        <settings
-            token="AddYourTokenHere"
-            interfaceName=""
-            documentPrefix=""
-            culture="nb-NO"
-            profileId=""
-            showSizeDialog="true"
-            showCropDialog="true"
-            freeCrop="true"
-            initializeTinyMCEPlugin="true"
-        />
+    <Geta.EPi.Imageshop xdt:Transform="InsertIfMissing">
+        <settings 
+          token="AddYourTokenHere" 
+          interfaceName="" 
+          documentPrefix="" 
+          culture="nb-NO" 
+          profileId="" 
+          showSizeDialog="true" 
+          showCropDialog="true" 
+          initializeTinyMCEPlugin="true" />
     </Geta.EPi.Imageshop>
 </configuration>
