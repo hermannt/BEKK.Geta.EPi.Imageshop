@@ -2,5 +2,5 @@
 
 @if (Model != null && !string.IsNullOrWhiteSpace(Model.Url))
 {
-    <img src="@Model.Url" alt="@ViewData["ImageAltText"]">
+    <img src="@Model.Url" height="@Model.Height" width="@Model.Width" alt="@ViewData["ImageAltText"]">
 }
